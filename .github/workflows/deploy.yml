@@ -15,7 +15,7 @@ jobs:
       - name: Setup Auth
         uses: google-github-actions/auth@v2  # Authenticate with service account
         with:
-            credentials_json: ${{ secrets.GOOGLE_CLOUD_CREDENTIALS }}  # Secret name for service account key JSON
+            credentials_json: ${{ secrets.Google_Cloud_Credentials }}  # Secret name for service account key JSON
       
       - name: Configure Google Cloud  # Configure access to GCP
         uses: google-github-actions/setup-gcloud@v2  # Action to install gcloud and configure
